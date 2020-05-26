@@ -1,9 +1,13 @@
-# idea files
+# ignore IDE files
 .idea/misc.xml
 .idea/Child-Abuse-System.iml
 .idea/workspace.xml
 .idea/modules.xml
 .idea/vcs.xml
+.idea/*
+*.iml
+
+reporter-service/reporter-service.iml
 
 # target folder generated for maven project
 target/
