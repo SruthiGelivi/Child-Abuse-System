@@ -1,0 +1,9 @@
+# idea files
+.idea/misc.xml
+.idea/Child-Abuse-System.iml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+# target folder generated for maven project
+target/
