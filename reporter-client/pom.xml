@@ -4,9 +4,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.childAbuse</groupId>
-    <artifactId>reporter-api</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>com.childAbuse</groupId>
+        <artifactId>child-abuse-reporter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
 
-    
+    <name>reporter-client</name>
+    <description>Java client for the child abuse reporter service</description>
+    <artifactId>reporter-client</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+
+    <properties>
+
+    </properties>
+
+
+    <dependencies>
+        <!-- compile-->
+        <dependency>
+            <groupId>com.childAbuse</groupId>
+            <artifactId>reporter-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.2.6.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>
